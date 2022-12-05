@@ -1,0 +1,23 @@
+h1 {
+    font-family: monospace;
+}
+.container{
+    width: 500px;
+    display: flex; justify-content: center; align-items: center; flex-wrap: wrap;
+}
+.box{
+width: 150px;
+height: 150px;
+background-color: rgb(22, 83, 83);
+margin: 1px;
+border-radius: 10px;
+transition: 0.5s all ;
+border: 2px solid rgb(185, 175, 37);
+}
+.box:hover{
+    background-color: turquoise;
+}
+body{
+display: flex; flex-direction: row; align-items: center; justify-content: center;
+
+}
